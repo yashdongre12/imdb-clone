@@ -3,6 +3,7 @@
 This is an IMDb Clone built using React.js and the OMDb API. It allows users to search for movies, view details, and add/remove favorites. The project is hosted on ByteXL.
 
 ## Features
+
 - Search movies using the OMDb API
 - Display movie details on click
 - Add/remove movies from favorites
@@ -11,6 +12,7 @@ This is an IMDb Clone built using React.js and the OMDb API. It allows users to 
 - Funky-themed UI with Bootstrap styling
 
 ## Technologies Used
+
 - **React.js** - Frontend framework
 - **OMDb API** - Movie data source
 - **Bootstrap** - Styling framework
@@ -18,6 +20,7 @@ This is an IMDb Clone built using React.js and the OMDb API. It allows users to 
 - **GitHub** - Version control
 
 ## Installation
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/yashdongre12/imdb-clone.git
@@ -37,6 +40,7 @@ This is an IMDb Clone built using React.js and the OMDb API. It allows users to 
 5. Open your browser and go to `http://localhost:3000/`.
 
 ## Deployment (ByteXL Hosting)
+
 1. Ensure your project is pushed to GitHub:
    ```sh
    git add .
@@ -48,9 +52,15 @@ This is an IMDb Clone built using React.js and the OMDb API. It allows users to 
 4. Configure build settings (if needed).
 5. Deploy and get your live site URL: [IMDb Clone Live](https://wty2mb-3000.bytexl.dev/)
 
+## Video Demonstration
+
+Watch a demo of the IMDb Clone here: [Video Link](https://drive.google.com/file/d/1hz4nRzTWWw54d-PsD6fViE5fR_Fw50iK/view?usp=sharing)
+
 ## Contributing
+
 Feel free to contribute! Fork the repo and submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License.
 
