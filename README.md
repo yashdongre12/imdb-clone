@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [imdbclone175]([http://localhost:3000](https://wty2mb-3000.bytexl.dev/)) to view it in your browser.
+Open [[imdbclone175](https://wty2mb-3000.bytexl.dev/)]([http://localhost:3000](https://wty2mb-3000.bytexl.dev/)) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
