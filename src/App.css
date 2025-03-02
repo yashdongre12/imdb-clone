@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/* 🎨 Funky Background */
+body {
+  background-color: #1a1a2e;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 🎬 Navbar Styling */
+.navbar {
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imdb-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #f5c518;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar .btn-warning {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar .btn-warning:hover {
+  background-color: #ff9900;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* 🍿 Movie Cards */
+.movie-card {
+  background: #222;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 204, 0, 0.5);
+}
+
+.movie-poster {
+  transition: opacity 0.3s ease-in-out, filter 0.3s;
+}
+
+.movie-poster:hover {
+  opacity: 0.8;
+  filter: brightness(1.2);
+}
+
+/* ❤️ Favorite Button */
+.btn-danger {
+  background-color: #ff0048;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #ff66a3;
+}
+
+/* 🔥 Funky Font */
+h2, h3, h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
